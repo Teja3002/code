@@ -1,0 +1,188 @@
+%-------------------------
+% Resume for JP Morgan Chase - Software Engineer II (Job ID: 210740415)
+% Tailored for SE II position emphasizing 2+ years experience, system design, and SDLC
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape [YOUR NAME]} \\ \vspace{1pt}
+    \small [Phone Number] $|$ \href{mailto:your.email@email.com}{\underline{your.email@email.com}} $|$ 
+    \href{https://linkedin.com/in/yourprofile}{\underline{linkedin.com/in/yourprofile}} $|$
+    \href{https://github.com/yourgithub}{\underline{github.com/yourgithub}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+Software Development Engineer with 2.5+ years of hands-on experience in system design, full-stack application development, and building production-grade microservices. Proficient in Java, Python, and TypeScript with expertise in Spring Boot, Node.js, and cloud-native architectures on AWS. Strong understanding of the Software Development Life Cycle and agile methodologies. Proven track record of designing scalable systems, optimizing database performance, implementing secure authentication, and delivering high-quality code in production environments.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Java, Python, TypeScript, JavaScript, SQL} \\
+     \textbf{Backend Frameworks}{: Spring Boot, Node.js (Express), REST APIs, gRPC, Microservices Architecture} \\
+     \textbf{Frontend Technologies}{: React, Next.js, Tailwind CSS, WebSockets} \\
+     \textbf{Databases}{: PostgreSQL, MongoDB, DynamoDB, Elasticsearch, Redis (Caching)} \\
+     \textbf{Cloud \& DevOps}{: AWS (EC2, S3, Lambda, CloudWatch, SageMaker), Docker, Jenkins CI/CD, Nginx} \\
+     \textbf{Security}{: OAuth 2.0, JWT Authentication, RBAC, Single Sign-On (SSO)} \\
+     \textbf{Methodologies}{: Agile/Scrum, SDLC, CI/CD, Application Resiliency, Distributed Systems} \\
+     \textbf{Tools}{: Git, Postman, Linux/Unix, Idempotent Processing, Distributed Locking}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Engineer}{January 2023 -- Present}
+      {Venqutel Technology}{}
+      \resumeItemListStart
+        \resumeItem{Developed and optimized full-stack web applications using Next.js, Spring Boot, TypeScript, React and Tailwind CSS, resulting in improved performance and user experience through efficient Redis caching and reduced re-renders}
+        \resumeItem{Designed and implemented scalable microservices architecture with Spring Boot, Node.js (Express), REST/gRPC APIs and Nginx, increasing request throughput and reducing latency in production environment}
+        \resumeItem{Integrated Single Sign-On (SSO) using OAuth 2.0 and Role-Based Access Control (RBAC) with JWT authentication, improving secure access management across internal and client-facing systems}
+        \resumeItem{Optimized multi-database systems including MongoDB, PostgreSQL and DynamoDB using Elasticsearch indexing, cutting query execution time and improving real-time data access}
+        \resumeItem{Engineered reliable backend services leveraging AWS (EC2, S3, CloudWatch, Lambda), Docker containers, Redis caching and distributed locking mechanisms to ensure high availability}
+        \resumeItem{Built alerting and workflow automation solutions using AWS services, SageMaker and idempotent processing, reducing manual effort and service downtime}
+        \resumeItem{Implemented Jenkins-based CI/CD pipelines with Docker in Agile environment, enabling faster deployments and better collaboration with cross-functional teams}
+        \resumeItem{Managed cloud infrastructure on AWS (EC2, S3, CloudWatch) with automated provisioning, achieving smoother releases and improved monitoring of production systems}
+        \resumeItem{Developed real-time features and secure payment processing modules using microservices and WebSockets, thoroughly tested with Postman for better reliability and performance}
+        \resumeItem{Automated data ingestion and transformation workflows using Python scripts integrated with AWS S3, significantly improving data processing efficiency}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Key Technical Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Enterprise People Counting \& Analytics Platform} $|$ \emph{Python, Flask, YOLOv8, REST API}}{}
+          \resumeItemListStart
+            \resumeItem{Engineered a scalable real-time pedestrian tracking system using state-of-the-art YOLOv8 object detection model}
+            \resumeItem{Designed custom object tracking algorithm with centroid-based ID persistence achieving 95\%+ tracking accuracy}
+            \resumeItem{Built production-ready REST API service exposing real-time bidirectional foot traffic analytics}
+            \resumeItem{Implemented frame optimization and memory management techniques for operational stability in continuous deployment}
+            \resumeItem{Applied system design principles: separation of concerns, modular architecture, and API-first design}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Intelligent People Detection Microservice} $|$ \emph{Python, Flask, YOLOv3, OpenCV DNN}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a microservice architecture providing real-time occupancy data via RESTful endpoints}
+            \resumeItem{Integrated YOLOv3 deep neural network with Non-Maximum Suppression for high-precision detection}
+            \resumeItem{Implemented robust error handling and graceful degradation for system resilience}
+            \resumeItem{Designed for horizontal scalability enabling deployment across distributed environments}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Automated Vehicle Speed Detection System} $|$ \emph{Python, Computer Vision, Custom Algorithms}}{}
+          \resumeItemListStart
+            \resumeItem{Built end-to-end vehicle monitoring solution integrating object detection, tracking, and speed calculation}
+            \resumeItem{Developed reusable Tracker class implementing distance-based object association algorithm}
+            \resumeItem{Applied software engineering best practices: OOP design patterns, code reusability, and testing}
+            \resumeItem{Documented system architecture and maintained clean, maintainable codebase}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Motion Detection \& Zone Monitoring System} $|$ \emph{Python, OpenCV, Image Processing}}{}
+          \resumeItemListStart
+            \resumeItem{Developed motion detection system using frame differencing and contour analysis algorithms}
+            \resumeItem{Implemented configurable zone-based triggering logic for flexible deployment scenarios}
+            \resumeItem{Applied image processing techniques: thresholding, morphological operations, and contour detection}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {[University Name]}{[City, State]}
+      {Bachelor of Science in Computer Science (or related STEM field)}{[Graduation Date]}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework: Software Engineering, Data Structures \& Algorithms, Machine Learning, Database Systems, Distributed Systems, Cloud Computing}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS & ADDITIONAL-----------
+\section{Certifications \& Professional Development}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Certifications}{: [AWS Certified Cloud Practitioner, Python certifications, any relevant certs]} \\
+     \textbf{Continuous Learning}{: [Online courses in system design, cloud architecture, financial technology]} \\
+     \textbf{Professional Interests}{: Financial Technology, Distributed Systems, Cloud-Native Applications, AI/ML in Finance}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
