@@ -6,7 +6,7 @@
 ---
 
 ## Summary
-Motivated software engineer with hands-on experience developing computer vision applications using Python, machine learning frameworks, and REST APIs. Passionate about building secure, scalable software solutions within agile teams. Eager to contribute to JPMorgan Chase's technology products while growing technical expertise in a collaborative environment.
+Software Development Engineer with 2+ years of experience building secure, scalable full-stack applications and microservices. Proficient in Java, Python, TypeScript, and cloud technologies (AWS). Strong foundation in agile methodologies, CI/CD pipelines, and database optimization. Passionate about delivering high-quality software solutions and contributing to JPMorgan Chase's technology products.
 
 ---
 
@@ -24,12 +24,13 @@ Motivated software engineer with hands-on experience developing computer vision 
 
 | Category | Skills |
 |----------|--------|
-| **Languages** | Python, SQL, [Java if applicable] |
-| **Frameworks & Libraries** | Flask, OpenCV, NumPy, Pandas, Ultralytics (YOLOv8) |
-| **Machine Learning/AI** | Object Detection (YOLO), Computer Vision, Neural Networks |
-| **Developer Tools** | Git, GitHub, VS Code, Linux/Unix, REST APIs |
-| **Cloud Technologies** | [AWS/Azure/GCP if any exposure] |
-| **Methodologies** | Agile, Software Development Life Cycle (SDLC), Version Control |
+| **Languages** | Java, Python, TypeScript, JavaScript, SQL |
+| **Backend** | Spring Boot, Node.js (Express), REST APIs, gRPC, Microservices |
+| **Frontend** | React, Next.js, Tailwind CSS, WebSockets |
+| **Databases** | PostgreSQL, MongoDB, DynamoDB, Elasticsearch, Redis |
+| **Cloud & DevOps** | AWS (EC2, S3, Lambda, CloudWatch, SageMaker), Docker, Jenkins, Nginx |
+| **Security** | OAuth 2.0, JWT, RBAC, SSO |
+| **Methodologies** | Agile/Scrum, CI/CD, Software Development Life Cycle (SDLC) |
 
 ---
 
@@ -69,14 +70,17 @@ Motivated software engineer with hands-on experience developing computer vision 
 
 ---
 
-## Experience
+## Professional Experience
 
-### [Position Title - e.g., Software Development Intern / Teaching Assistant]
-**[Organization Name]** | [Location] | [Date Range]
+### Software Development Engineer
+**Venqutel Technology** | January 2023 – Present
 
-- [Describe relevant responsibilities using action verbs]
-- [Highlight collaboration, problem-solving, or technical contributions]
-- [Mention any software tools, methodologies, or technologies used]
+- Developed and optimized full-stack web applications using Next.js, Spring Boot, TypeScript, React and Tailwind CSS, improving performance through efficient Redis caching and reduced re-renders
+- Designed and implemented scalable microservices architecture with Spring Boot, Node.js (Express), REST/gRPC APIs and Nginx, increasing request throughput and reducing latency
+- Integrated Single Sign-On (SSO) using OAuth 2.0 and Role-Based Access Control (RBAC) with JWT authentication, improving secure access management across systems
+- Optimized multi-database systems including MongoDB, PostgreSQL and DynamoDB using Elasticsearch indexing, cutting query execution time significantly
+- Engineered reliable backend services leveraging AWS (EC2, S3, CloudWatch, Lambda), Docker containers and Redis caching to ensure high availability
+- Implemented Jenkins-based CI/CD pipelines with Docker in Agile environment, enabling faster deployments and better cross-functional collaboration
 
 ---
 
@@ -90,15 +94,16 @@ Motivated software engineer with hands-on experience developing computer vision 
 
 ## 📝 Customization Notes for Software Engineer I (Job ID: 210759344)
 
-**Key Requirements to Address:**
-1. ✅ Formal training/certification in software engineering → Your CS degree covers this
-2. ✅ Baseline knowledge of AI/cloud → Your YOLO/ML projects demonstrate this
-3. ✅ Ability to code in one or more languages → Python expertise shown
-4. ✅ Understanding of SDLC → Emphasize your development process in projects
-5. ✅ Exposure to cloud technologies → Add any AWS/Azure/GCP experience
+**Your Experience Exceeds Requirements! ✅**
 
-**Tips:**
-- This is an **entry-level** position - your project work is perfect
-- Emphasize learning eagerness and collaborative mindset
-- Highlight that your projects use secure coding practices
-- Mention any teamwork or group project experience
+You have 2.5 years of professional experience - this is MORE than enough for the SE I entry-level role.
+
+| Requirement | Your Qualification |
+|-------------|-------------------|
+| Formal training in software engineering | ✅ Your degree + 2.5 years experience |
+| Baseline knowledge of cloud/AI | ✅ Extensive AWS experience (EC2, S3, Lambda, SageMaker) |
+| Ability to code in one or more languages | ✅ Java, Python, TypeScript, JavaScript |
+| Understanding of SDLC | ✅ Jenkins CI/CD, Agile, Production deployments |
+| Exposure to cloud technologies | ✅ Heavy AWS usage in production |
+
+**You are overqualified for SE I** - consider applying primarily for SE II!

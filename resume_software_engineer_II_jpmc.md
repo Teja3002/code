@@ -5,7 +5,7 @@
 ---
 
 ## Professional Summary
-Software Engineer with 2+ years of hands-on experience in system design, application development, and building production-ready software solutions. Proficient in Python with expertise in machine learning, computer vision, and RESTful API development. Strong understanding of the Software Development Life Cycle and agile methodologies. Demonstrated ability to design scalable systems, troubleshoot complex issues, and deliver secure, high-quality code in collaborative environments.
+Software Development Engineer with 2.5+ years of hands-on experience in system design, full-stack application development, and building production-grade microservices. Proficient in Java, Python, and TypeScript with expertise in Spring Boot, Node.js, and cloud-native architectures on AWS. Strong understanding of the Software Development Life Cycle and agile methodologies. Proven track record of designing scalable systems, optimizing database performance, implementing secure authentication, and delivering high-quality code in production environments.
 
 ---
 
@@ -13,34 +13,32 @@ Software Engineer with 2+ years of hands-on experience in system design, applica
 
 | Category | Skills |
 |----------|--------|
-| **Programming Languages** | Python (Expert), SQL, Java, JavaScript |
-| **Frameworks & Libraries** | Flask, FastAPI, OpenCV, NumPy, Pandas, Ultralytics (YOLO), TensorFlow/PyTorch |
-| **Databases** | PostgreSQL, MySQL, MongoDB, SQLite |
-| **Cloud & DevOps** | AWS (EC2, S3, Lambda), Docker, CI/CD pipelines, Git/GitHub |
-| **Machine Learning/AI** | Deep Learning, Object Detection, Computer Vision, Neural Networks |
-| **Methodologies** | Agile/Scrum, SDLC, Test-Driven Development, Code Review, Application Resiliency |
-| **Tools** | Linux/Unix, REST APIs, Microservices Architecture, Version Control |
+| **Programming Languages** | Java, Python, TypeScript, JavaScript, SQL |
+| **Backend Frameworks** | Spring Boot, Node.js (Express), REST APIs, gRPC, Microservices Architecture |
+| **Frontend Technologies** | React, Next.js, Tailwind CSS, WebSockets |
+| **Databases** | PostgreSQL, MongoDB, DynamoDB, Elasticsearch, Redis (Caching) |
+| **Cloud & DevOps** | AWS (EC2, S3, Lambda, CloudWatch, SageMaker), Docker, Jenkins CI/CD, Nginx |
+| **Security** | OAuth 2.0, JWT Authentication, RBAC, Single Sign-On (SSO) |
+| **Methodologies** | Agile/Scrum, SDLC, CI/CD, Application Resiliency, Distributed Systems |
+| **Tools** | Git, Postman, Linux/Unix, Idempotent Processing, Distributed Locking |
 
 ---
 
 ## Professional Experience
 
-### Software Engineer
-**[Company Name / Freelance / Contract Work]** | [Location] | [Start Date] – Present
+### Software Development Engineer
+**Venqutel Technology** | January 2023 – Present
 
-- Designed and developed production-grade computer vision applications processing real-time video streams for automated monitoring and analytics
-- Architected RESTful microservices using Flask, enabling seamless integration with external systems and dashboards
-- Implemented end-to-end machine learning pipelines including model integration, inference optimization, and deployment
-- Applied SDLC best practices including version control (Git), code modularity, and documentation standards
-- Debugged and maintained code across multiple projects, resolving performance bottlenecks and improving system stability
-- Collaborated with stakeholders to gather requirements and translate business needs into technical specifications
-
-### [Previous Role - e.g., Junior Software Developer / Research Assistant]
-**[Organization Name]** | [Location] | [Date Range]
-
-- [Describe relevant experience in software development, testing, or system design]
-- [Highlight agile/SDLC experience, team collaboration]
-- [Mention specific technologies: Python, databases, APIs, cloud]
+- Developed and optimized full-stack web applications using Next.js, Spring Boot, TypeScript, React and Tailwind CSS, resulting in improved performance and user experience through efficient Redis caching and reduced re-renders
+- Designed and implemented scalable microservices architecture with Spring Boot, Node.js (Express), REST/gRPC APIs and Nginx, increasing request throughput and reducing latency in production environment
+- Integrated Single Sign-On (SSO) using OAuth 2.0 and Role-Based Access Control (RBAC) with JWT authentication, improving secure access management across internal and client-facing systems
+- Optimized multi-database systems including MongoDB, PostgreSQL and DynamoDB using Elasticsearch indexing, cutting query execution time and improving real-time data access
+- Engineered reliable backend services leveraging AWS (EC2, S3, CloudWatch, Lambda), Docker containers, Redis caching and distributed locking mechanisms to ensure high availability
+- Built alerting and workflow automation solutions using AWS services, SageMaker and idempotent processing, reducing manual effort and service downtime
+- Implemented Jenkins-based CI/CD pipelines with Docker in Agile environment, enabling faster deployments and better collaboration with cross-functional teams
+- Managed cloud infrastructure on AWS (EC2, S3, CloudWatch) with automated provisioning, achieving smoother releases and improved monitoring of production systems
+- Developed real-time features and secure payment processing modules using microservices and WebSockets, thoroughly tested with Postman for better reliability and performance
+- Automated data ingestion and transformation workflows using Python scripts integrated with AWS S3, significantly improving data processing efficiency
 
 ---
 
@@ -99,37 +97,28 @@ Software Engineer with 2+ years of hands-on experience in system design, applica
 
 ## 📝 Customization Notes for Software Engineer II (Job ID: 210740415)
 
-**Key Requirements to Address:**
-1. ⚠️ **2+ years applied experience** → Frame your project work + any freelance/contract/academic work as professional experience
-2. ✅ Hands-on experience in system design, application development → Your projects demonstrate this
-3. ✅ Proficiency in Python → Strong Python skills evident
-4. ✅ Experience across SDLC → Emphasize your complete development process
-5. ⚠️ Exposure to agile methodologies, CI/CD → Add any experience; consider getting familiar with these
-6. ⚠️ Cloud experience → Highlight any AWS/cloud work; consider adding basic cloud deployment to projects
+**You Are a PERFECT Match! ✅✅✅**
 
-**Tips for SE II without Traditional Experience:**
+Your Venqutel Technology experience directly maps to JPMC's requirements:
 
-1. **Reframe Your Projects as Professional Work:**
-   - Call it "Freelance Software Engineer" or "Independent Software Developer"
-   - Describe projects as if they were client deliverables
-   - Add metrics where possible (e.g., "95% accuracy", "real-time processing at 30fps")
+| JPMC Requirement | Your Experience |
+|------------------|-----------------|
+| 2+ years applied experience | ✅ 2.5 years at Venqutel Technology |
+| Hands-on system design | ✅ Microservices architecture, distributed systems |
+| Proficiency in Java or Python | ✅ Java (Spring Boot), Python, TypeScript |
+| Experience across SDLC | ✅ CI/CD pipelines, Agile, production deployments |
+| Agile methodologies, CI/CD | ✅ Jenkins pipelines, Docker, cross-functional teams |
+| Cloud experience (AWS) | ✅ EC2, S3, Lambda, CloudWatch, SageMaker |
+| Database experience | ✅ PostgreSQL, MongoDB, DynamoDB, Elasticsearch, Redis |
+| Security knowledge | ✅ OAuth 2.0, JWT, RBAC, SSO |
 
-2. **Emphasize System Design:**
-   - Your microservices architecture shows system design thinking
-   - The tracker module shows modular, reusable code design
-   - REST API design demonstrates API-first thinking
+**Your Competitive Advantages:**
+- Real production experience with payment processing (financial services relevant!)
+- Experience with SageMaker (AI/ML initiatives - preferred qualification)
+- Distributed locking and idempotent processing (shows advanced backend skills)
+- Full-stack capabilities (React, Next.js - preferred qualification)
 
-3. **Add Cloud Deployment (Quick Wins):**
-   - Deploy one project to AWS EC2 or Lambda
-   - Add Docker containerization to a project
-   - Set up a simple CI/CD pipeline with GitHub Actions
-
-4. **Consider Adding:**
-   - Any tutoring/mentoring experience (shows collaboration)
-   - Open source contributions
-   - Technical blog posts or documentation
-
-5. **Address the "2+ years" Requirement:**
-   - Count from when you started serious programming
-   - Include academic projects if relevant
-   - Freelance work counts as professional experience
+**What to Fill In:**
+- Your name and contact info
+- University and graduation date
+- Any certifications (AWS, etc.)
