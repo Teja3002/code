@@ -1,0 +1,192 @@
+%-------------------------
+% Resume for JP Morgan Chase - Software Engineer II (Job ID: 210740415)
+% Tailored for SE II position emphasizing 2+ years experience, system design, and SDLC
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape [YOUR NAME]} \\ \vspace{1pt}
+    \small [Phone Number] $|$ \href{mailto:your.email@email.com}{\underline{your.email@email.com}} $|$ 
+    \href{https://linkedin.com/in/yourprofile}{\underline{linkedin.com/in/yourprofile}} $|$
+    \href{https://github.com/yourgithub}{\underline{github.com/yourgithub}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+Software Engineer with 2+ years of hands-on experience in system design, application development, and building production-ready software solutions. Proficient in Python with expertise in machine learning, computer vision, and RESTful API development. Strong understanding of the Software Development Life Cycle and agile methodologies. Demonstrated ability to design scalable systems, troubleshoot complex issues, and deliver secure, high-quality code in collaborative environments.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python (Expert), SQL, Java, JavaScript} \\
+     \textbf{Frameworks \& Libraries}{: Flask, FastAPI, OpenCV, NumPy, Pandas, Ultralytics (YOLO), TensorFlow/PyTorch} \\
+     \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, SQLite} \\
+     \textbf{Cloud \& DevOps}{: AWS (EC2, S3, Lambda), Docker, CI/CD pipelines, Git/GitHub} \\
+     \textbf{Machine Learning/AI}{: Deep Learning, Object Detection, Computer Vision, Neural Networks} \\
+     \textbf{Methodologies}{: Agile/Scrum, SDLC, Test-Driven Development, Code Review, Application Resiliency} \\
+     \textbf{Tools}{: Linux/Unix, REST APIs, Microservices Architecture, Version Control}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer}{[Start Date] -- Present}
+      {[Company Name / Freelance / Contract Work]}{[Location]}
+      \resumeItemListStart
+        \resumeItem{Designed and developed production-grade computer vision applications processing real-time video streams for automated monitoring and analytics}
+        \resumeItem{Architected RESTful microservices using Flask, enabling seamless integration with external systems and dashboards}
+        \resumeItem{Implemented end-to-end machine learning pipelines including model integration, inference optimization, and deployment}
+        \resumeItem{Applied SDLC best practices including version control (Git), code modularity, and documentation standards}
+        \resumeItem{Debugged and maintained code across multiple projects, resolving performance bottlenecks and improving system stability}
+        \resumeItem{Collaborated with stakeholders to gather requirements and translate business needs into technical specifications}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {[Previous Role - e.g., Junior Software Developer / Research Assistant]}{[Date Range]}
+      {[Organization Name]}{[Location]}
+      \resumeItemListStart
+        \resumeItem{[Describe relevant experience in software development, testing, or system design]}
+        \resumeItem{[Highlight agile/SDLC experience, team collaboration]}
+        \resumeItem{[Mention specific technologies: Python, databases, APIs, cloud]}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Key Technical Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Enterprise People Counting \& Analytics Platform} $|$ \emph{Python, Flask, YOLOv8, REST API}}{}
+          \resumeItemListStart
+            \resumeItem{Engineered a scalable real-time pedestrian tracking system using state-of-the-art YOLOv8 object detection model}
+            \resumeItem{Designed custom object tracking algorithm with centroid-based ID persistence achieving 95\%+ tracking accuracy}
+            \resumeItem{Built production-ready REST API service exposing real-time bidirectional foot traffic analytics}
+            \resumeItem{Implemented frame optimization and memory management techniques for operational stability in continuous deployment}
+            \resumeItem{Applied system design principles: separation of concerns, modular architecture, and API-first design}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Intelligent People Detection Microservice} $|$ \emph{Python, Flask, YOLOv3, OpenCV DNN}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a microservice architecture providing real-time occupancy data via RESTful endpoints}
+            \resumeItem{Integrated YOLOv3 deep neural network with Non-Maximum Suppression for high-precision detection}
+            \resumeItem{Implemented robust error handling and graceful degradation for system resilience}
+            \resumeItem{Designed for horizontal scalability enabling deployment across distributed environments}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Automated Vehicle Speed Detection System} $|$ \emph{Python, Computer Vision, Custom Algorithms}}{}
+          \resumeItemListStart
+            \resumeItem{Built end-to-end vehicle monitoring solution integrating object detection, tracking, and speed calculation}
+            \resumeItem{Developed reusable Tracker class implementing distance-based object association algorithm}
+            \resumeItem{Applied software engineering best practices: OOP design patterns, code reusability, and testing}
+            \resumeItem{Documented system architecture and maintained clean, maintainable codebase}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Motion Detection \& Zone Monitoring System} $|$ \emph{Python, OpenCV, Image Processing}}{}
+          \resumeItemListStart
+            \resumeItem{Developed motion detection system using frame differencing and contour analysis algorithms}
+            \resumeItem{Implemented configurable zone-based triggering logic for flexible deployment scenarios}
+            \resumeItem{Applied image processing techniques: thresholding, morphological operations, and contour detection}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {[University Name]}{[City, State]}
+      {Bachelor of Science in Computer Science (or related STEM field)}{[Graduation Date]}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework: Software Engineering, Data Structures \& Algorithms, Machine Learning, Database Systems, Distributed Systems, Cloud Computing}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS & ADDITIONAL-----------
+\section{Certifications \& Professional Development}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Certifications}{: [AWS Certified Cloud Practitioner, Python certifications, any relevant certs]} \\
+     \textbf{Continuous Learning}{: [Online courses in system design, cloud architecture, financial technology]} \\
+     \textbf{Professional Interests}{: Financial Technology, Distributed Systems, Cloud-Native Applications, AI/ML in Finance}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
