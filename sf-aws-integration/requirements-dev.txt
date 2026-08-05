@@ -1,0 +1,2 @@
+# runtime has zero third-party dependencies (stdlib only; boto3 ships with Lambda)
+pytest>=8
